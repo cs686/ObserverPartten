@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+static NSString *SCIENCE=@"SCIENCE";
+
+@interface ViewController ()<SubscriptionServeProtocol>
 
 @end
 
@@ -16,7 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //创建刊物
+    [SubscriptionServe createSubscriptionNumber:SCIENCE];
+    //添加用户
+    [SubscriptionServe addCustom:self
+           withSubscriptinNumber:SCIENCE];
+    //发送消息
+    [SubscriptionServe sendMessage:@"V 1.0" toSubscriptinNumber:SCIENCE];
+}
+
+- (void)subscriptionMessage:(id)message SubscriptinNumber:(NSString *)subscriptionNumber {
+    NSLog(@"%@",message);
 }
 
 - (void)didReceiveMemoryWarning {

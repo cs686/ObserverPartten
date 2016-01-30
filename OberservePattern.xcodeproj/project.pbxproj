@@ -13,6 +13,7 @@
 		A67256E11C5C56D7007EF3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67256DF1C5C56D7007EF3FE /* Main.storyboard */; };
 		A67256E31C5C56D7007EF3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67256E21C5C56D7007EF3FE /* Assets.xcassets */; };
 		A67256E61C5C56D7007EF3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67256E41C5C56D7007EF3FE /* LaunchScreen.storyboard */; };
+		A67256EF1C5C56F1007EF3FE /* SubscriptionServe.m in Sources */ = {isa = PBXBuildFile; fileRef = A67256EE1C5C56F1007EF3FE /* SubscriptionServe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		A67256E21C5C56D7007EF3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67256E51C5C56D7007EF3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67256E71C5C56D7007EF3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67256ED1C5C56F1007EF3FE /* SubscriptionServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriptionServe.h; path = ../SubscriptionServe.h; sourceTree = "<group>"; };
+		A67256EE1C5C56F1007EF3FE /* SubscriptionServe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubscriptionServe.m; path = ../SubscriptionServe.m; sourceTree = "<group>"; };
+		A67256F11C5C5998007EF3FE /* SubscriptionServeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServeProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				A67256DA1C5C56D7007EF3FE /* AppDelegate.m */,
 				A67256DC1C5C56D7007EF3FE /* ViewController.h */,
 				A67256DD1C5C56D7007EF3FE /* ViewController.m */,
+				A67256ED1C5C56F1007EF3FE /* SubscriptionServe.h */,
+				A67256EE1C5C56F1007EF3FE /* SubscriptionServe.m */,
+				A67256F11C5C5998007EF3FE /* SubscriptionServeProtocol.h */,
 				A67256DF1C5C56D7007EF3FE /* Main.storyboard */,
 				A67256E21C5C56D7007EF3FE /* Assets.xcassets */,
 				A67256E41C5C56D7007EF3FE /* LaunchScreen.storyboard */,
@@ -150,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67256EF1C5C56F1007EF3FE /* SubscriptionServe.m in Sources */,
 				A67256DE1C5C56D7007EF3FE /* ViewController.m in Sources */,
 				A67256DB1C5C56D7007EF3FE /* AppDelegate.m in Sources */,
 				A67256D81C5C56D7007EF3FE /* main.m in Sources */,
